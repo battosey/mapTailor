@@ -14,4 +14,4 @@ _[Tutorial](https://www.youtube.com/watch?v=rI9y5wnLEGs) on Youtube._
 
 ### Support or Contact
 
-Having trouble with Map Tailor? Check out the [Discord Server](https://discord.gg/AUXDqn3) and we’ll help you sort it out.
+Having trouble with Map Tailor? Join the [Discord Server](https://discord.gg/AUXDqn3) and we’ll help you sort it out.

@@ -9,7 +9,7 @@ Check out the [wiki](https://github.com/battosey/mapTailor/wiki) to see the deta
 
 ![](https://media.giphy.com/media/jP4LdxgEuC3VjFnnO9/giphy.gif)
 
-_Watch the [tutorial](https://www.youtube.com/watch?v=rI9y5wnLEGs) on youtube._
+_[Tutorial](https://www.youtube.com/watch?v=rI9y5wnLEGs) on Youtube._
 
 ### Support or Contact
 

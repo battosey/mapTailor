@@ -12,6 +12,8 @@ Check out the [wiki](https://github.com/battosey/mapTailor/wiki) to see the deta
 
 _[Demo video](https://www.youtube.com/watch?v=rI9y5wnLEGs) on Youtube._
 
+[Example map](https://map-talor-example.netlify.com/)
+
 ### Support or Contact
 
 Having trouble with Map Tailor? Join the [Discord Server](https://discord.gg/AUXDqn3) and we’ll help you sort it out.

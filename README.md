@@ -1,10 +1,12 @@
-## Welcome to GitHub Pages
+## Welcome to Map Tailor!
 
-You can use the [editor on GitHub](https://github.com/battosey/mapTailor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Download the [latest version 1.0.0](https://raw.githubusercontent.com/battosey/mapTailor/master/releases/MapTailor_v1-0-0.zip) and get started.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Synopsis
 
-### Markdown
+Map Tailor is a tool that allows you to create interactive maps that can be displayed in a  out
+
+### Changelog 1.0.0
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

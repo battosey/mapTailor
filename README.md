@@ -1,12 +1,15 @@
 ## Welcome to Map Tailor!
 
-Download the [latest version 1.0.0](https://raw.githubusercontent.com/battosey/mapTailor/master/releases/MapTailor_v1-0-0.zip) and get started.
+**Download** the [latest version 1.0.0](https://raw.githubusercontent.com/battosey/mapTailor/master/releases/MapTailor_v1-0-0.zip) and get started.
 
 ### Synopsis
 
-Map Tailor is a tool that allows you to create interactive maps that can be displayed in a  out
+Map Tailor is a tool that allows you to create interactive maps as webpages with the help of [Leaflet](https://leafletjs.com/).
+Check out the [wiki](https://github.com/battosey/mapTailor/wiki) to see the detailed **documentation** of all the features.
 
-### Changelog 1.0.0
+[Image](https://doc-14-04-docs.googleusercontent.com/docs/securesc/n7p1hlpsvr9cu44jr69c3ipprfodkaus/lslqt030opanacdrkurq9hei165kqj14/1578240000000/03380089908515083207/10803477328453687652/1tFrJRpsQJF4mRVkoL97Xq3bJKMiGkgF8)
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

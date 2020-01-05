@@ -5,6 +5,7 @@
 ### Synopsis
 
 Map Tailor is a tool that allows you to create interactive maps as webpages with the help of [Leaflet](https://leafletjs.com/).
+
 Check out the [wiki](https://github.com/battosey/mapTailor/wiki) to see the detailed **documentation** of all the features.
 
 ![](https://media.giphy.com/media/jP4LdxgEuC3VjFnnO9/giphy.gif)

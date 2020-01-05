@@ -27,7 +27,7 @@
 
 		// set the view to the center of the map [0, 0]
 		var map = L.map('map').setView([0, 0], mapStartZoom);
-		layer = L.tileLayer('tiles/{z}/{x}/{y}.png', {
+		layer = L.tileLayer('https://raw.githubusercontent.com/battosey/mapTailor/master/example/tiles/{z}/{x}/{y}.png', {
 			minZoom: mapMinZoom,
 			maxZoom: mapMaxZoom,
 			attribution: 'Created with MapTylor',

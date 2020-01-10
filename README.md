@@ -24,19 +24,7 @@ Having trouble with Map Tailor? Join the [Discord Server](https://discord.gg/AUX
 6. Upload your exported files to your webserver
 7. Done!
 
-## Planned for coming releases
-
-### New Features
-- Map Layers
-- Place custom interactive markers for POIs on the map
-- .maproj file association (open Map Tailor by clicking on a project file)
-
-### Improvements
-- Smoother zooming
-- Resizable window
-- Improved HTML export
-- Slider instead of arrow-input field for opacity in image details
-- Dark theme?
+[What's planned for the future?](https://github.com/battosey/mapTailor/projects)
 
 <a name="changelog"/>
 

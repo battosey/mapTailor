@@ -2,8 +2,7 @@
 
 **Download** the [latest version 1.0.1](https://raw.githubusercontent.com/battosey/mapTailor/master/releases/MapTailor_v1-0-1.zip) and get started. _[[Changelog]](#changelog)_
 
-![](https://i.imgur.com/GnciMzt.png)
-![](https://github.com/battosey/mapTailor/raw/master/example/zoom-map-example.gif)
+![](https://i.imgur.com/GnciMzt.png)![](https://github.com/battosey/mapTailor/raw/master/example/zoom-map-example.gif)
 
 Map Tailor is a helper tool to create zoomable, interactive maps out of already existing images (e.g. created by [Wonderdraft](https://www.wonderdraft.net/)) that can be displayed on a website.
 

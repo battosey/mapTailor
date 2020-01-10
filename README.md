@@ -8,9 +8,7 @@ Map Tailor is a helper tool to create zoomable, interactive maps out of already 
 
 ![](https://media.giphy.com/media/jP4LdxgEuC3VjFnnO9/giphy.gif)
 
-[Demo video](https://www.youtube.com/watch?v=rI9y5wnLEGs) | [Example map](https://battosey.github.io/mapTailor/example/)
-
-Check out the [wiki](https://github.com/battosey/mapTailor/wiki) to see the detailed **documentation** of all the features.
+[Demo video](https://www.youtube.com/watch?v=rI9y5wnLEGs) | [Example map](https://battosey.github.io/mapTailor/example/) | [Documentation](https://github.com/battosey/mapTailor/wiki)
 
 ### Support or Contact
 Having trouble with Map Tailor? Join the [Discord Server](https://discord.gg/AUXDqn3) and we’ll help you sort it out.

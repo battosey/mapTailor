@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<title>Unnamed Map</title>
+	<title>Fancy Example Map</title>
 	<meta charset='utf-8'>
 	<meta name = 'viewport' content='initial-scale=1.0, user-scalable=no'>
 	<meta name = 'apple-mobile-web-app-capable' content='yes'>
@@ -21,16 +21,16 @@
 	
 	<script type = 'text/javascript'>
 		// zoom settings
-		var mapMinZoom   = 0;
+		var mapMinZoom   = 1;
 		var mapMaxZoom   = 5;
-		var mapStartZoom = 0;
+		var mapStartZoom = 2;
 
 		// set the view to the center of the map [0, 0]
 		var map = L.map('map').setView([0, 0], mapStartZoom);
-		layer = L.tileLayer('https://raw.githubusercontent.com/battosey/mapTailor/master/example/tiles/{z}/{x}/{y}.png', {
+		layer = L.tileLayer('tiles/{z}/{x}/{y}.png', {
 			minZoom: mapMinZoom,
 			maxZoom: mapMaxZoom,
-			attribution: 'Created with MapTylor',
+			attribution: 'Created with <a href="https://github.com/battosey/mapTailor/wiki" target="_blank">MapTailor</a>',
 			noWrap: true,
 			tms: false
 		}).addTo(map);
@@ -40,14 +40,17 @@
 	// longitude = horizontal angle from the center of the world around the equator
 	//(-180 = other side of the planet going left, +180 = other side of the planet going right)
 	// if your map is not square in size you need to adjust the values below (https://leafletjs.com/examples/zoom-levels/)
-	var northWest = new L.LatLng(+90, -180),
-		southEast = new L.LatLng(-90, +180),
+	var northWest = new L.LatLng(+90, -170),
+		southEast = new L.LatLng(+10, +150),
 		bounds = new L.LatLngBounds(northWest, southEast);
 	function resetView()
 	{
-		map.fitBounds(bounds);
+		map.setView([65, -15], 3);
 	}
 	resetView();
+
+	L.marker([71.74278, -150.4715], {opacity: 0.8}).addTo(map).bindPopup(
+		'<a href="#" onclick="map.setView([71.74278, -150.4715], 5);">City Map</a>');
 
 	// adds the mouse cursor position widget to the lower left corner of the map
 	L.control.mousePosition().addTo(map)

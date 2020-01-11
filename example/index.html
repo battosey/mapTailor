@@ -21,13 +21,13 @@
 	
 	<script type = 'text/javascript'>
 		// zoom settings
-		var mapMinZoom   = 1;
-		var mapMaxZoom   = 5;
+		var mapMinZoom   = 2;
+		var mapMaxZoom   = 11;
 		var mapStartZoom = 2;
 
 		// set the view to the center of the map [0, 0]
 		var map = L.map('map').setView([0, 0], mapStartZoom);
-		layer = L.tileLayer('tiles/{z}/{x}/{y}.png', {
+		L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
 			minZoom: mapMinZoom,
 			maxZoom: mapMaxZoom,
 			attribution: 'Created with <a href="https://github.com/battosey/mapTailor/wiki" target="_blank">MapTailor</a>',
@@ -35,25 +35,25 @@
 			tms: false
 		}).addTo(map);
 
-	// latitude  = vertical angle from the center of the world to the poles
-	//(90 = north pole, -90 = south pole)
-	// longitude = horizontal angle from the center of the world around the equator
-	//(-180 = other side of the planet going left, +180 = other side of the planet going right)
-	// if your map is not square in size you need to adjust the values below (https://leafletjs.com/examples/zoom-levels/)
-	var northWest = new L.LatLng(+90, -170),
-		southEast = new L.LatLng(+10, +150),
-		bounds = new L.LatLngBounds(northWest, southEast);
-	function resetView()
-	{
-		map.setView([65, -15], 3);
-	}
-	resetView();
+		// latitude  = vertical angle from the center of the world to the poles
+		//(90 = north pole, -90 = south pole)
+		// longitude = horizontal angle from the center of the world around the equator
+		//(-180 = other side of the planet going left, +180 = other side of the planet going right)
+		// if your map is not square in size you need to adjust the values below (https://leafletjs.com/examples/zoom-levels/)
+		var northWest = new L.LatLng(+90, -170),
+			southEast = new L.LatLng(+10, +150),
+			bounds = new L.LatLngBounds(northWest, southEast);
+		function resetView()
+		{
+			map.setView([65, -15], 3);
+		}
+		resetView();
+	
+		L.marker([71.74278, -150.4715], {opacity: 0.8}).addTo(map).bindPopup(
+			'<a href="#" onclick="map.setView([71.74278, -150.4715], 11);">City Map</a>');
 
-	L.marker([71.74278, -150.4715], {opacity: 0.8}).addTo(map).bindPopup(
-		'<a href="#" onclick="map.setView([71.74278, -150.4715], 5);">City Map</a>');
-
-	// adds the mouse cursor position widget to the lower left corner of the map
-	L.control.mousePosition().addTo(map)
+		// adds the mouse cursor position widget to the lower left corner of the map
+		L.control.mousePosition().addTo(map)
 	</script>
   </body>
 </html>

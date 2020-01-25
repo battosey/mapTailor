@@ -1,6 +1,6 @@
 ## Welcome to Map Tailor!
 
-**Download** the [latest version 1.0.1](https://raw.githubusercontent.com/battosey/mapTailor/master/releases/MapTailor_v1-0-1.zip) and get started. _[[Changelog]](#changelog)_
+**Download** the [latest version 1.0.2](https://raw.githubusercontent.com/battosey/mapTailor/master/releases/MapTailor_v1-0-2.zip) and get started. _[[Changelog]](https://github.com/battosey/mapTailor/wiki#changelog)_
 
 ![](https://i.imgur.com/GnciMzt.png)![](https://github.com/battosey/mapTailor/raw/master/example/zoom-map-example.gif)
 
@@ -23,23 +23,3 @@ Having trouble with Map Tailor? Join the [Discord Server](https://discord.gg/AUX
 7. Done!
 
 [What's planned for the future?](https://github.com/battosey/mapTailor/projects)
-
-<a name="changelog"/>
-
-## Changelog v1.0.1
-### New Features
-* Added "Check for updates on launch" option that is enabled by default
-* Added possibility to only export html
-* Added possibility to close the export settings dialog without discarding setting changes
-* You can now export tiles as jpg
-* You can now choose to not overwrite exsting files when exporting
-* Added a "Reset View" button that resets the preview map to its original view
-### Improvements
-* Slightly improved performance when exporting a lot of tiles
-* Preview map viewport is no longer saved in the project (that did not make a lot of sense...)
-* Windows "pling" sound is now played when export is finished
-* Disabled the export button when nothing can be exported
-* A prompt is now shown when exporting HTML to ensure if the user really wants to overwrite an existing file
-* Added some comments with examples of markers and shapes to the exported HTML file
-### Bugfixes
-* Fixed "Min/Max Zoom Level" fields in main window not influencing the zoom of the preview map
